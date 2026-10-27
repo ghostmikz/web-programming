@@ -14,6 +14,8 @@ if (isset($_POST["petid"])) {
         $msg = "Бүх талбарыг бөглөнө үү";
     } else if ($gender != "m" && $gender != "f") {
         $msg = "Хүйс буруу байна";
+    } else if ($birth > date("Y-m-d")) {
+        $msg = "Төрсөн өдөр ирээдүйд байж болохгүй";
     } else {
         mysqli_query($conn, "UPDATE pet SET name = '$name', owner = '$owner', type = '$type', gender = '$gender', birth = '$birth' WHERE petid = $petid");
         $msg = "Data updated";
@@ -45,7 +47,7 @@ if (isset($_POST["petid"])) {
                     <option value="f" <?php if (($_REQUEST["gender"] ?? "") == "f") echo "selected"; ?>>Female</option>
                 </select>
             </label>
-            <label>Birth:<input type="date" name="birth" required value="<?= htmlspecialchars($_REQUEST["birth"] ?? "") ?>"></label>
+            <label>Birth:<input type="date" name="birth" max="<?= date("Y-m-d") ?>" required value="<?= htmlspecialchars($_REQUEST["birth"] ?? "") ?>"></label>
         </div>
         <input type="submit" value="Save"> <input type="reset" value="reset">
     </form>

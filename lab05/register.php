@@ -13,6 +13,8 @@ if (isset($_POST["name"])) {
         $msg = "Бүх талбарыг бөглөнө үү";
     } else if ($gender != "m" && $gender != "f") {
         $msg = "Хүйс буруу байна";
+    } else if ($birth > date("Y-m-d")) {
+        $msg = "Төрсөн өдөр ирээдүйд байж болохгүй";
     } else {
         mysqli_query($conn, "INSERT INTO pet(name, owner, type, gender, birth) VALUES ('$name', '$owner', '$type', '$gender', '$birth')");
         $msg = "Data saved";
@@ -51,7 +53,7 @@ if (isset($_POST["name"])) {
                     <option value="f">Female</option>
                 </select>
             </label>
-            <label>Birth:<input type="date" name="birth" required></label>
+            <label>Birth:<input type="date" name="birth" max="<?= date("Y-m-d") ?>" required></label>
         </div>
         <input type="submit" value="Save"> <input type="reset" value="reset">
     </form>
