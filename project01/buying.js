@@ -1,5 +1,5 @@
 window.onload = function () {
-    requireLogin("customer", "login.htm");
+    requireLogin("customer", "login.html");
     loadCatalog();
     cartAction("view");
     setInterval(loadCatalog, 10000);

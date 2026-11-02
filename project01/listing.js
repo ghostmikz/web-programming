@@ -1,5 +1,5 @@
 window.onload = function () {
-    requireLogin("manager", "mlogin.htm");
+    requireLogin("manager", "mlogin.html");
 };
 
 function addItem() {
