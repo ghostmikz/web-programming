@@ -1,0 +1,84 @@
+/* Student: NAME, ID. File: project.css. Function: styles for all BuyOnline pages, same look as the labs. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef1f5;
+    color: #333;
+    margin: 0;
+}
+
+.content {
+    width: fit-content;
+    min-width: 300px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: 0;
+    color: #2f4f7a;
+}
+
+h3.gap {
+    margin-top: 24px;
+}
+
+input, textarea {
+    margin: 4px 0;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+input[type=submit], input[type=button], input[type=reset] {
+    padding: 7px 18px;
+    background-color: #2f4f7a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover {
+    background-color: #3d6399;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #e3e8ef;
+}
+
+th, td {
+    padding: 6px 12px;
+}
+
+.actions {
+    background-color: #e3e8ef;
+}
+
+.right {
+    text-align: right;
+}
+
+a {
+    color: #2f4f7a;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.msg {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

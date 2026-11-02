@@ -1,0 +1,34 @@
+<html xmlns:w="urn:schemas-microsoft-com:office:word">
+<!-- Student: NAME, ID. File: checklist.doc. Function: checklist of completed tasks. -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>BuyOnline checklist</title></head>
+<body style="font-family: Arial, sans-serif">
+<h1>Checklist for Tasks Completion</h1>
+<p>Student: NAME, ID</p>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><th>Assessment item</th><th>Completed</th></tr>
+<tr><td>Comment and readme file</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 1</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 2.1</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 2.2</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 2.3</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 2.4</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 3.1</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 3.2</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 3.3</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 3.4</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 3.5</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.1</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.2</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.3</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.4</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.5</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.6</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 4.7</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 5.1</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 5.2</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+<tr><td>Task 5.3</td><td>YES &#9746; NO &#9744; PARTIALLY &#9744;</td></tr>
+</table>
+<p>You should provide further details if "NO" or "PARTIALLY" is ticked.</p>
+<p><b>Defects / Uncompleted tasks:</b> None.</p>
+</body>
+</html>

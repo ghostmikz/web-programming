@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Student: NAME, ID. File: customer.xml. Function: stores all customers. -->
+<customers>
+  <customer>
+    <id>1</id>
+    <firstname>Bat</firstname>
+    <surname>Dorj</surname>
+    <email>bat@example.com</email>
+    <password>$2y$10$Xl5nkoaeq1dOajSUrlRlvOpv22VlG7idiotKqEWkUlV4E5mWDp.se</password>
+    <phone>(09)91234567</phone>
+  </customer>
+  <customer>
+    <id>2</id>
+    <firstname>Saraa</firstname>
+    <surname>Bold</surname>
+    <email>saraa@example.com</email>
+    <password>$2y$10$HUJRFo8mqFfxSPueiF9UDuW2qMPQS1PbxwXiuVZdbVGaQui1Wvu7K</password>
+    <phone>09 98765432</phone>
+  </customer>
+  <customer>
+    <id>3</id>
+    <firstname>Tuya</firstname>
+    <surname>Ganaa</surname>
+    <email>tuya@example.com</email>
+    <password>$2y$10$nfl749VpZD4GNodjiD9Zq.PHxSI.HHXt3Q2L.hHusa577WdNxI7Sq</password>
+    <phone></phone>
+  </customer>
+</customers>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Student: NAME, ID. File: listing.htm. Function: form for a manager to list a new item. -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Add New Item</title>
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="listing.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="menu">
+            <a href="listing.htm">Listing</a>
+            <a href="processing.htm">Processing</a>
+            <a href="logout.htm">Logout</a>
+        </div>
+        <h3>Add new item</h3>
+        <form action="#" onsubmit="addItem(); return false;">
+            <table border="1">
+                <tr><td><label for="name">Item name:</label></td><td><input type="text" id="name" /></td></tr>
+                <tr><td><label for="price">Item price:</label></td><td><input type="text" id="price" /></td></tr>
+                <tr><td><label for="quantity">Item quantity:</label></td><td><input type="text" id="quantity" /></td></tr>
+                <tr><td><label for="description">Item description:</label></td><td><textarea id="description" rows="2" cols="24"></textarea></td></tr>
+                <tr class="actions"><td><input type="submit" value="Add item" /></td><td><input type="reset" value="Reset" /></td></tr>
+            </table>
+        </form>
+        <p id="msg" class="msg"></p>
+    </div>
+</body>
+</html>
