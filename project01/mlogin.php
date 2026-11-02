@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: mlogin.php. Function: checks a manager against manager.txt and remembers the id.
 include "common.php";
 
 $id = trim($_POST["managerid"] ?? "");

@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: login.php. Function: checks a customer against customer.xml and remembers the id.
 include "common.php";
 
 $email = trim($_POST["email"] ?? "");

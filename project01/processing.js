@@ -1,5 +1,3 @@
-// Student: NAME, ID. File: processing.js. Function: shows the sold items and runs the process action.
-
 window.onload = function () {
     requireLogin("manager", "mlogin.htm");
     loadSold();

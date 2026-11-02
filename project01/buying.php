@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: buying.php. Function: add, remove, confirm and cancel for the cart; replies with the cart as XML.
 include "common.php";
 
 if (!isset($_SESSION["customer"])) {
@@ -52,7 +51,6 @@ if ($action == "add") {
     $reply["cancelled"] = "1";
 }
 
-// Whatever the action was, send the cart back as it is now.
 $xml = load_xml("goods.xml", "goods");
 $total = 0;
 foreach ($_SESSION["cart"] as $no => $quantity) {

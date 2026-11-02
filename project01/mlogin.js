@@ -1,5 +1,3 @@
-// Student: NAME, ID. File: mlogin.js. Function: sends the manager login to mlogin.php and shows the links.
-
 function mlogin() {
     ajax("POST", "mlogin.php", formData(["managerid", "password"]), function (xhr) {
         if (xhr.responseText == "OK") {

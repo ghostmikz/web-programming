@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: logout.php. Function: cancels any open cart, ends the session and says thanks with the id.
 include "common.php";
 
 $customer = $_SESSION["customer"] ?? "";

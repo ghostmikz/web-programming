@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Student: NAME, ID. File: catalog.xsl. Function: turns goods.xml into the catalog table of available items. -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8"/>
     <xsl:template match="/goods">

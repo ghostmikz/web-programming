@@ -1,5 +1,3 @@
-// Student: NAME, ID. File: buying.js. Function: refreshes the catalog and builds the shopping cart with DOM.
-
 window.onload = function () {
     requireLogin("customer", "login.htm");
     loadCatalog();
@@ -21,7 +19,6 @@ function removeFromCart(number) {
     cartAction("remove", number);
 }
 
-// Run a cart action in buying.php, then show the cart it sends back.
 function cartAction(action, number) {
     ajax("POST", "buying.php", "action=" + action + "&number=" + (number || 0), function (xhr) {
         if (!xhr.responseXML) {

@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: processing.php. Function: returns the sold items table, and clears sold quantities on process.
 include "common.php";
 
 if (!isset($_SESSION["manager"])) {

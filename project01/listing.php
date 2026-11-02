@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: listing.php. Function: validates a new item and adds it to goods.xml.
 include "common.php";
 
 if (!isset($_SESSION["manager"])) {

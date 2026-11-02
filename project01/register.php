@@ -1,5 +1,4 @@
 <?php
-// Student: NAME, ID. File: register.php. Function: validates a new customer and saves them to customer.xml.
 include "common.php";
 
 $email = trim($_POST["email"] ?? "");

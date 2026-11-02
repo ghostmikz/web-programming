@@ -1,5 +1,4 @@
 <html xmlns:w="urn:schemas-microsoft-com:office:word">
-<!-- Student: NAME, ID. File: readme.doc. Function: project URL, file list and user instructions. -->
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>BuyOnline readme</title></head>
 <body style="font-family: Arial, sans-serif">
 <h1>BuyOnline - Readme</h1>
@@ -29,9 +28,8 @@
 <p><b>Customer:</b> choose Customer Login. The catalog refreshes every 10 seconds. Add items to the cart, remove them if needed, then press Confirm Purchase or Cancel Purchase. Logout cancels anything still in the cart.</p>
 <p><b>Manager:</b> choose Store Manager Login, then Listing to add an item or Processing to see sold items and press Process.</p>
 
-<h2>Test accounts</h2>
-<p>Customers: bat@example.com / bat123, saraa@example.com / saraa123, tuya@example.com / tuya123</p>
-<p>Managers: John / JOH121280, Jane / JAN020578, Anna / ANN151085</p>
+<h2>Manager account</h2>
+<p>Admin / 123</p>
 
 <h2>Notes</h2>
 <p>Customer passwords are stored in customer.xml as hashes, not plain text. The shopping cart is kept in the PHP session, so it survives a page refresh.</p>
